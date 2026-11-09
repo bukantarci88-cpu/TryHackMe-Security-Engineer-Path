@@ -56,8 +56,6 @@ Before delving into different threat modelling frameworks, let's briefly run thr
 
 An attack tree is a hierarchical, graphical threat modeling tool that breaks down potential attack scenarios into sub-goals and conditions, with the root node representing the ultimate attacker objective and leaf nodes representing specific attack vectors.
 
-![Attack Tree representation of Gain unauthorised access to sensitive data.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5dbea226085ab6182a2ee0f7/room-content/ab10d8571dca42dfcab63c952c436413.png)
-
 Attack trees structure threat scenarios hierarchically from a primary root goal down to specific strategic vectors, whereas attack paths map sequential chains of interconnected vulnerabilities and entry points leading to objective compromise.
 
 **Answer the questions below**
@@ -83,24 +81,13 @@ MITRE ATT&CK is a globally accessible, knowledge-base matrix cataloging real-wor
 
 1. Technique Name and Details: Information such as name, detailed explanation of the technique, types of data or logs that can help or detect, and platforms (Windows, MacOS, Linux) relevant to the technique.
     
-    ![Name and Details under the Exploit Public-Facing Application technique.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5dbea226085ab6182a2ee0f7/room-content/d9026d5ac1c84632ad1e45bd6208e7ae.png)
-    
 2. Procedure Examples: Real-world examples of how threat actors have employed the technique in their adversarial operations.
-    
-    ![Procedure Examples showing usage of Exploit Public-Facing Application technique.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5dbea226085ab6182a2ee0f7/room-content/218fa71ca2fe34549424b82152c4b5fb.png)
     
 3. Mitigations: Recommended security measures and best practices to protect against the technique.
     
-    ![Mitigations or ways to prevent Exploit Public-Facing Application technique.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5dbea226085ab6182a2ee0f7/room-content/5cb8f4b6f8351efd801b134741e41536.png)
-    
 4. Detections: Strategies and indicators that can help identify the technique, as well as potential challenges in detecting the technique.
-    
-    ![Examples of ways to detect Exploit Public-Facing Application technique.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5dbea226085ab6182a2ee0f7/room-content/e4a542bb8405b6bdfa0cf814c50f491c.png)
-    
+
 5. References: External sources, reports, and articles that provide additional information, context, or examples related to the technique.
-    
-    ![List of additional references for Exploit Public-Facing Application technique.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5dbea226085ab6182a2ee0f7/room-content/40674f569307d70862844c0fcd69d7f5.png)
-    
 
 **Applying MITRE ATT&CK in Threat Modelling Process**
 
@@ -142,8 +129,6 @@ This task will have a walkthrough on creating a layer and mapping the relevant t
 
 **Creating a New Layer:** To start with, let's create a new layer and choose enterprise.
 
-![Creation of a new layer - Enterprise Matrix.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5dbea226085ab6182a2ee0f7/room-content/b297cc481e64b98e727c0c2bc3c1bb78.png)
-
 You may have observed that there are three options for creating a new layer. These layers pertain to the three MITRE ATT&CK matrices, namely:
 
 - **Enterprise** - The Enterprise Matrix focuses on threats and techniques commonly used against enterprise networks.
@@ -152,27 +137,17 @@ You may have observed that there are three options for creating a new layer. The
 
 We have chosen the Enterprise Matrix to cover threat actors' typical techniques when targeting an organisation. After creating a new layer, you will have this view once the web page has loaded.
 
-![Initial view of all techniques under the Enterprise matrix.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5dbea226085ab6182a2ee0f7/room-content/d74cd02274b8f09d20cd6b2cf853c2a5.png)
-
 **Searching and Selecting Techniques**
 
 The first important feature we want to utilise in this application is the search functionality under the **Selection Controls** panel. This feature allows us to search and multi-select techniques you want to highlight or mark.
 
 You may press the magnifier button to access the right sidebar, search using any keywords, or choose any selection under **Techniques, Threat Groups, Software, Mitigations, Campaigns, or Data Sources**.
 
-![Search functionality example usage.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5dbea226085ab6182a2ee0f7/room-content/04d12a47541923fc4a7b1ed229293fa1.png)
-
 For a quick example, search for **APT41** and hover its entry on the **Threat Groups** section. You may observe that it will highlight all techniques attributed to this threat group. Once you click the select button, the highlighted techniques will be selected as a group and can be annotated with a score or a background fill, which will be discussed in the following instructions.
-
-![Techniques highlighted after searching APT41.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5dbea226085ab6182a2ee0f7/room-content/f11e5b772011876f8255d6abd97a1b1b.png)
 
 After selecting the threat group, you may also observe that the deselect button now has a numerical value. This indicates the current number of chosen techniques. You may press this button to remove all your current technique selections.
 
-![Deselect button representing the number of selected techniques.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5dbea226085ab6182a2ee0f7/room-content/9e443200b84f84d93773d6294ed2745e.png)
-
 Lastly, you may right-click any technique if you prefer to do an action on a single technique (e.g. select, add to selection, remove from selection).
-
-![Additional actions through right-click.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5dbea226085ab6182a2ee0f7/room-content/10260d2f4c50533fbc471e86ed6b0bfb.png)
 
 **Viewing, Sorting and Filtering Layers:** We will tackle the next set of features under the **Layer Controls** panel. However, we will only focus on the following:
 
