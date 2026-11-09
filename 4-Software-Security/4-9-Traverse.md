@@ -102,9 +102,3 @@ renamed_file_manager.php
 
 <img width="1067" height="590" alt="image 14" src="https://github.com/user-attachments/assets/028e9091-c8db-4fbf-9840-2b81925f66ea" />
 
-
----
-
----
-
----
