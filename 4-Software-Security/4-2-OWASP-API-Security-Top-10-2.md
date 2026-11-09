@@ -61,9 +61,7 @@ Likely Impact: Security misconfiguration can give intruders complete knowledge o
 <img width="735" height="475" alt="image 3" src="https://github.com/user-attachments/assets/7580010e-2f80-4192-a5c7-6e171b25292d" />
 
 
-- The solution to the issue is pretty simple. Bob will create an API endpoint `/apirule7/ping_s` that will carry out error handling and only share desired information with the user (as shown below).
-
-![Image for Secure Scenario](https://tryhackme-images.s3.amazonaws.com/user-uploads/62a7685ca6e7ce005d3f3afe/room-content/9087274b07f2fa5174398b0bb0c69979.png)
+- The solution to the issue is pretty simple. Bob will create an API endpoint `/apirule7/ping_s` that will carry out error handling and only share desired information with the user.
 
 **Mitigation Measures**
 
