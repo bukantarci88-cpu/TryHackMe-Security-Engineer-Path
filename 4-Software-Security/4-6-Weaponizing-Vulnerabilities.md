@@ -23,8 +23,6 @@ remote exploit
 
 The Department of Defense Vulnerability Disclosure Program (VDP) leverages the five-stage Lifecycle of a Vulnerability Framework—comprising Discovery, Coordination, Mitigation, Management, and Lessons Learned—to systematically triage, validate, and remediate security vulnerabilities reported by external researchers.
 
-![Different stages of the lifecycle of a vulnerability](https://tryhackme-images.s3.amazonaws.com/user-uploads/62a7685ca6e7ce005d3f3afe/room-content/010b30ab11a3760f6a43d52cb2782c46.png)
-
 - **Product Launched:** A vendor in the public market launches an information technology product (hardware or software).
 - **Vulnerability Discovery (Public or Private):** Researchers working independently or sponsored by private/public organizations for various interests discover vulnerabilities in the product. A 0-day vulnerability is one that has yet to be made public after being found. In any other case, when a vulnerability is found, it is made available to the general public via the internet or other special sources. Before the vulnerability is publicly disclosed online, the manufacturer typically has already developed a patch or update for the product at this stage.
 - **Development of a Proof of Concept (PoC) or Exploit:** A PoC proving the exploitability of the newly discovered vulnerability is prepared in-house by the vendor or received from bug bounty hunters/independent researchers. It is crucial at this stage to keep the vulnerability disclosure discrete as the PoC is typically the first stage in developing an exploit, and bad actors can use it in the wild.
@@ -53,8 +51,6 @@ patch
 
 Vulnerability weaponization is a complex, time-intensive process requiring deep technical expertise to develop or procure custom exploits from underground markets, operating within specific temporal opportunity windows before patches are deployed.
 
-![flow chart of the opportunity period for weaponizing a vulnerability](https://tryhackme-images.s3.amazonaws.com/user-uploads/62a7685ca6e7ce005d3f3afe/room-content/e0bed60e9d9bd82ec747e4fac57d2c30.png)
-
 Zero-day vulnerabilities afford extended exploitation windows ranging from days to years before detection, whereas n-day vulnerabilities face a high-risk window immediately following patch release when adversaries reverse-engineer updates to create rapid exploits prior to enterprise patching.
 
 **Answer the questions below**
@@ -74,8 +70,7 @@ n-day
 Chaining exploits in tandem, also known as "**exploit chaining**" or "**multi-stage exploitation**", is a technique hackers use to string together multiple exploits for vulnerabilities to gain complete control of a target system. The desired goal is to develop a complete **Remote Code Execution (RCE) chain**, allowing the attacker to execute arbitrary code on the target system with the highest privileges.
 
 - **Reconnaissance:** The attacker will gather information about the target system and its vulnerabilities. This can be done through various methods, such as network scanning, port scanning, and vulnerability scanning.
-    
-    ![Chaining exploits lifecycle](https://tryhackme-images.s3.amazonaws.com/user-uploads/62a7685ca6e7ce005d3f3afe/room-content/6db928385248e0724b3f785390be98fc.png)
+
     
 - **Initial Exploit:** The attacker will use the information gathered during the reconnaissance phase to identify an initial vulnerability that can be exploited, which could be known and that has not been patched. The attacker will use an exploit that takes advantage of this vulnerability to gain access to the target system.
 - **Privilege Escalation:** This will allow them to access sensitive information, such as login credentials and system files, and execute code with higher privileges.
@@ -106,7 +101,6 @@ To demonstrate the process for **"exploit chaining in tandem to develop a compl
 
 **How to Chain Multiple Exploits:** Using a case study, let's dig deeper into various phases of exploit chaining. The installation procedure and the fundamental commands are not covered as the goal of this study is to chain exploits for developing a complete RCE chain.
 
-![Login form for the web application](https://tryhackme-images.s3.amazonaws.com/user-uploads/62a7685ca6e7ce005d3f3afe/room-content/c10ae7f395dcc50b72d71ca5a2e7adb9.png)
 
 **Answer the questions below**
 
