@@ -154,27 +154,15 @@ Lastly, you may right-click any technique if you prefer to do an action on a sin
 - Exporting features (download as JSON , Excel, SVG) - This allows you to dump the selected techniques, including all annotations. The data exported can be ingested again in the ATT&CK Navigator for future use.
 - Filters - Allows you to filter techniques based on relevant platforms, such as operating systems or applications. For a quick example, the image below shows all techniques that are attributed to Office365.
 
-![Filtered list of techniques with O365 filter.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5dbea226085ab6182a2ee0f7/room-content/4ecfb35e8b4b7784e55d46e0e419980f.png)
-
 - Sorting - This allows you to sort the techniques by their alphabetical arrangement or numerical scores. The image below shows that all techniques are arranged alphabetically.
-
-![Example usage of sorting the techniques.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5dbea226085ab6182a2ee0f7/room-content/4c4b5706ce7f8c6cefead64434592760.png)
 
 - Expand sub-techniques - View all underlying sub-techniques under each technique, expanding the view for all techniques. You will have a similar view with the image below once you have expanded the sub-techniques.
 
-![Expanding all sub-techniques in one view.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5dbea226085ab6182a2ee0f7/room-content/57b9e0faedfe675aacbb7e039c2347bb.png)
-
 **Annotating Techniques:** Now, the last set of features is under the **Technique Controls** panel. These buttons allow you to annotate details on selected techniques. For a quick run-through, here are the features under the panel mentioned (from left to right):
-
-![Buttons under the technique controls.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5dbea226085ab6182a2ee0f7/room-content/873f7f63e9ccdeca22cba95214f21179.png)
 
 - Toggle state - This feature allows you to disable the selected techniques, making their view greyed-out.
 
-![Example usage of a toggle button.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5dbea226085ab6182a2ee0f7/room-content/baa4cdd097c0313b28e9f2619afd037c.png)
-
 - Background color - This allows you to change the background color of the selected technique, for highlighting and grouping purposes.
-
-![Example usage of changing the background colours of the techniques.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5dbea226085ab6182a2ee0f7/room-content/e319c6fbf48e55db4295ffe97a2bc99c.png)
 
 - Scoring - Allows you to rate each technique or set of techniques based on criteria depending on your needs, such as the impact of a technique.
 - Comment - Allows you to add notes and observations to a technique.
@@ -183,8 +171,6 @@ Lastly, you may right-click any technique if you prefer to do an action on a sin
 - Clear annotations on selected - Remove all annotations on selected techniques.
 
 The image below is an example of using Scoring, Comment, Link and Metadata features.
-
-![Adding metadata on a single technique.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5dbea226085ab6182a2ee0f7/room-content/a87be0e2e7f306a3ac0f52e0eacb9b7c.png)
 
 Utilising ATT&CK Navigator: To put the concepts of this framework into practice, let's use the following scenario below. You are tasked to utilise the MITRE ATT&CK framework for your threat modelling exercise. The organisation you're currently working with is in the financial services industry. Given that, some known threat groups targeting this industry are:
 
@@ -208,11 +194,7 @@ Lastly, the critical assets that you handle based on your business stakeholders 
 
 Given this scenario, you can use the MITRE ATT&CK framework and ATT&CK Navigator to map and understand the significant techniques attributed to the provided threat groups and those affecting GCP and web applications.
 
-![View filtered with APT28 techniques.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5dbea226085ab6182a2ee0f7/room-content/c0c43eff99b8a297d50ecc36170e0518.png)
-
 *Techniques used by APT28*
-
-![Techniques related to GCP.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5dbea226085ab6182a2ee0f7/room-content/cb0e387e5b693a3d6eba7b839e5aef2d.png)
 
 *Techniques related to Google Cloud*
 
