@@ -1,4 +1,4 @@
-<img width="1617" height="650" alt="image" src="https://github.com/user-attachments/assets/11905933-41d1-45bb-97e0-3fef1504a5a5" /><img width="1638" height="556" alt="image 1" src="https://github.com/user-attachments/assets/4a72fe25-7843-4a0f-a6f3-00e4fcc438d3" /><img width="1617" height="650" alt="image" src="https://github.com/user-attachments/assets/53f18c75-9a9d-41ec-bba1-eb1baf76c6e2" /><img width="1638" height="556" alt="image 1" src="https://github.com/user-attachments/assets/dfaf33d0-6d22-47df-8f36-94b8aedaefe5" /># Eng 5.2. Logging for Accountability
+# Eng 5.2. Logging for Accountability
 
 #### **Task 1 - Introduction**
 
