@@ -32,11 +32,7 @@ A hypervisor is a virtualization management platform that establishes an abstrac
 
 Type 1 hypervisors operate directly on physical hardware as dedicated, lightweight operating systems, eliminating host OS overhead to maximize resource allocation, scale, and performance for enterprise virtual machines.
 
-![A diagram of a type 1 hypervisor](https://tryhackme-images.s3.amazonaws.com/user-uploads/5e73cca6ec4fcf1309f2df86/room-content/10f4dce97b527ea3d144442b2190270c.png)
-
 **Type 2 hypervisors**, Type 2 hypervisors operate as software applications atop a pre-existing host operating system, utilizing graphical user interfaces to provide localized virtual machine management tailored for individual developers and desktop environments rather than enterprise scalability.
-
-![A diagram of a type 2 hypervisor](https://tryhackme-images.s3.amazonaws.com/user-uploads/5e73cca6ec4fcf1309f2df86/room-content/44d3a52445a0194a28eb710bf16f52d6.png)
 
 **Answer the questions below**
 
