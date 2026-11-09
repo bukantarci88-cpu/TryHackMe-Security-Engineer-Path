@@ -39,11 +39,7 @@ Miyamoto Musashi
 
 Symmetric encryption uses the same shared key for both encryption and decryption, requiring communicating parties to securely establish this secret before exchanging messages.
 
-![General block diagram of encryption using a secret key](https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/dc0cc0d61133400277c47d039d8d69e1.png)
-
 On the other end, the recipient provides the *decrypt* process with the same key used by the sender to recover the original plaintext from the received ciphertext. Without knowledge of the key, the recipient won’t be able to recover the plaintext.
-
-![General block diagram of decryption using a secret key](https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/4003a3e6e0ecd139078eefe30a336ce2.png)
 
 **GNU Privacy Guard: A**lso known as GnuPG or GPG, implements the OpenPGP standard. We can encrypt a file using GnuPG (GPG) using the following command:
 
